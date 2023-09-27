@@ -1,0 +1,8 @@
+.titulo {
+color: red;
+}
+header{
+    display: flex; 
+    /* justify-content: center; */
+    flex-direction: column;
+}
