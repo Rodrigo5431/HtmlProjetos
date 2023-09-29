@@ -1,34 +1,84 @@
-
-img {
-    width: 300px;
-    align-self: start;
+body{
+    background-color:#333;
+}
+.container_logos img {
+    width: 250px;
+    align-self: end;
 
 }
 header{
     display: flex; 
     flex-direction: column;
+
+
 }
-body{
-    background-color: white;
-}
+
 
 .titulo{
 font-size: 45px;
-text-align: center;
+text-align: start;
+font-family: Arial, sans-serif;
+color:white
+
 }
 
+.conteudo{
+    color: white;
+}
 .formacao{
     font-size: 35px;
+    color: white;
 }
+
+
 .nav ul{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #333 ;
+
+
+
 }
 .nav{
     width: 500px;
     align-self: center;
 }
 .titulo{
-    background-color: black;
+    background-color: #333;
+}
+a{
+ text-decoration: none;
+    color: white;
+
+}
+.container_logos{
+    display:flex;
+    justify-content:  space-between;
+    flex-direction: column;
+    align-self: end;
+}
+.container_logos img{
+    
+    border-radius: 50%;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logos img {
+    width: 50px;
+}
+.barra{
+    border-radius: 50%;
+    height: 150px; 
+    background-color: black; 
+    margin-top: 190px; 
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    
+
 }
